@@ -1,0 +1,272 @@
+@font-face{
+    font-family: Roboto;
+    src:url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face{
+    font-family: RobotoThin;
+    src: url(fonts/Roboto-Thin.ttf)
+}
+
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Roboto, RobotoThin, serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color:#fff;
+}
+
+body {
+    background-color: #111;
+}
+
+a{
+    color:#fff;
+}
+
+a:hover{
+    color:#fff;
+}
+
+
+label {
+    color:#fff;
+}
+/* NAVBAR */
+.bg-dark {
+    background-color: #222 !important;
+    color:#fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    color:#fff;
+}
+
+/* HEADER */
+/* BANNER TEXT AREA*/
+#header {
+    background-image: url(images/viking-5151537_1920.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100vh;
+    margin-bottom: 2.5%;
+}
+
+#bannerInfoArea{
+    width:40%;
+    margin: 0 auto 0;
+    padding-top: 20%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bannerText{
+    font-family: Roboto;
+    color:#fff;
+    text-align: center;
+}
+
+.bannerInfoAreaItem1{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: span 3;
+}
+
+.bannerInfoAreaItem2{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: span 3;
+}
+
+.bannerInfoAreaItem3{
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+#readMore{
+    display:block;
+    color:#fff;
+    text-align:center;
+    text-decoration: none;
+    text-align: center;
+    padding:5% 25%;
+    margin-left:10%
+}
+
+/* MAIN */
+.container{
+    width:100%;
+    max-width: 70vw;
+}
+
+.row{
+    width:100%;
+}
+
+/* CARDS */
+.card-img-top{
+    height:429px;
+}
+
+#cards {
+    margin: 0 auto 2.5% auto;
+}
+
+.card-title{
+    color: #000;
+}
+
+.card-text{
+    color: #000;
+}
+
+/* SECTION DIVIDER */
+.sectionBackground{
+    width:100%;
+    height:600px;
+}
+
+.sectionTextArea{
+    width:40%;
+    padding-top:10%;
+    margin:0 auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.sectionText{
+    font-family: Roboto;
+    text-align: center;
+}
+
+.sectionHeadingItem1{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: span 3;
+}
+
+.sectionParagraphItem2{
+    grid-column-end: span 3;
+}
+
+.sectionBackground{
+    margin-bottom:2.5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+/* SECTION CONTENT CONTROLLER */
+.sectionContent{
+    margin-bottom:2.5%;
+}
+    
+/* VIKING AREA */
+#vikingSectionBackground{
+    background-image: url(images/the-war-4828704_1920.jpg);
+    background-position-y: 25%;
+}
+
+#vikingImage{
+    width:100%;
+    height:auto;
+}
+
+#vikingTextArea2{
+    margin-top: 2.5%;
+}
+
+/* CRAFTMANSHIP AREA */
+#craftmanshipSectionBackground{
+    background-image: url(images/blacksmith-3437495_1920.jpg);
+}
+
+#craftsmanshipImage{
+    width:100%;
+}
+
+#smeltingtext{
+    padding:0px;
+}
+
+/* SETTLEMENT AREA */
+#settlementSectionBackground{
+    background-image: url(images/beach-3444288_1920.jpg);
+}
+
+#settlementImage{
+    width: 100%;
+    height: auto;
+}
+
+/* RELIGION */
+#religionSectionBackground{
+    background-image: url(images/church-2648813_1920.jpg);
+}
+
+#religionImage{
+    width:100%;
+    height:auto;
+}
+
+/* FOOTER */
+footer{
+    padding:2% 0 1% 0;
+}
+#footerCopyright{
+    margin-bottom:0px;
+    padding:1% 0 0 0;
+}
+
+#checkboxArea{
+    margin-left:0.5%;
+}
+
+@media screen and (min-width:2560px)
+{    
+    h1{
+        font-size:2em;
+    }
+
+    h2, h3, h4, h5{
+        font-size:1.75em;
+    }
+
+    p{
+        font-size:1.3em;
+    }
+
+}
